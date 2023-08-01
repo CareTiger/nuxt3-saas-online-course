@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* site wide active link colors */
+/* exact link will show the primary color for only the exact matching link 
+    a.router-link-exact-active {} */
+a.router-link-active {
+    @apply font-extrabold text-sky-600;
+}
